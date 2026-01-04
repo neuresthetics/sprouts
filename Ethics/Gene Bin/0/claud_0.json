@@ -1,0 +1,398 @@
+{
+  "framework": {
+    "id": "ethical-decision-processor",
+    "version": "0.1-operational",
+    "function": "Auditable ethical decision-making for organizational use",
+    "design_principles": [
+      "Transparent: All reasoning traceable from input to output",
+      "Reproducible: Same inputs yield same outputs",
+      "Escalation-aware: Knows when to defer to humans",
+      "Defensible: Outputs withstand public and legal scrutiny",
+      "Calibrated: Confidence scores validated against outcomes"
+    ],
+
+    "stage_1_intake": {
+      "name": "Intake",
+      "description": "Structured capture of decision context",
+      "required_inputs": {
+        "situation": {
+          "type": "string",
+          "description": "Plain language description of the decision context"
+        },
+        "actors": {
+          "type": "array",
+          "items": {
+            "id": "string",
+            "description": "string",
+            "weight": "number (0-1, reflects moral considerability)"
+          },
+          "description": "All parties affected by the decision"
+        },
+        "options": {
+          "type": "array",
+          "min_items": 2,
+          "items": {
+            "id": "string",
+            "description": "string",
+            "consequences": [
+              {
+                "outcome": "string",
+                "probability": "number (0-1)",
+                "severity": "number (-10 to +10, negative=harm)",
+                "affected_actors": ["actor_id"]
+              }
+            ],
+            "rule_alignment": [
+              {
+                "rule": "string",
+                "status": "compliant | violates | ambiguous",
+                "notes": "string"
+              }
+            ]
+          }
+        },
+        "constraints": {
+          "legal": ["string"],
+          "policy": ["string"],
+          "temporal": "string (time available for decision)",
+          "informational": "string (known unknowns, data quality)"
+        }
+      }
+    },
+
+    "stage_2_screening": {
+      "name": "Screening",
+      "description": "Binary pass/fail filters before evaluation",
+      "hard_filters": [
+        {
+          "id": "legal_compliance",
+          "test": "Does option violate applicable law?",
+          "fail_action": "flag_and_escalate"
+        },
+        {
+          "id": "policy_compliance",
+          "test": "Does option violate organizational policy?",
+          "fail_action": "flag_and_escalate"
+        },
+        {
+          "id": "rights_violation",
+          "test": "Does option violate fundamental rights?",
+          "fail_action": "flag_and_escalate"
+        },
+        {
+          "id": "dignity_violation",
+          "test": "Does option treat persons merely as means?",
+          "fail_action": "flag_and_escalate"
+        }
+      ],
+      "output": {
+        "passed_options": ["option_id"],
+        "flagged_options": [
+          {
+            "option_id": "string",
+            "failed_filter": "string",
+            "escalation_required": true
+          }
+        ]
+      }
+    },
+
+    "stage_3_evaluation": {
+      "name": "Evaluation",
+      "description": "Quantitative scoring of remaining options",
+      "scoring": {
+        "harm_score": {
+          "formula": "Σ (probability × abs(severity) × actor_weight) for negative severities",
+          "description": "Total expected harm across all actors"
+        },
+        "benefit_score": {
+          "formula": "Σ (probability × severity × actor_weight) for positive severities",
+          "description": "Total expected benefit across all actors"
+        },
+        "uncertainty_penalty": {
+          "formula": "k × average(confidence_interval_widths)",
+          "k": 0.1,
+          "description": "Penalizes decisions made under high uncertainty"
+        },
+        "net_score": {
+          "formula": "benefit_score - harm_score - uncertainty_penalty"
+        }
+      },
+      "adjustments": [
+        {
+          "id": "deontological_penalty",
+          "trigger": "Option uses person as mere means to end",
+          "penalty": -2.0,
+          "justification_required": true
+        },
+        {
+          "id": "precedent_penalty",
+          "trigger": "Option sets problematic precedent",
+          "penalty": -1.5,
+          "justification_required": true
+        },
+        {
+          "id": "fairness_penalty",
+          "trigger": "Harm distribution disproportionately affects vulnerable groups",
+          "penalty": -1.5,
+          "justification_required": true
+        },
+        {
+          "id": "reversibility_bonus",
+          "trigger": "Option preserves ability to change course",
+          "bonus": 0.5
+        }
+      ],
+      "output": {
+        "scored_options": [
+          {
+            "option_id": "string",
+            "net_score": "number",
+            "adjusted_score": "number",
+            "penalties_applied": ["adjustment_id"],
+            "bonuses_applied": ["adjustment_id"]
+          }
+        ]
+      }
+    },
+
+    "stage_4_collision": {
+      "name": "Collision Check",
+      "description": "Cross-validation and consistency testing",
+      "comparisons": {
+        "margin_threshold": 0.5,
+        "margin_check": {
+          "test": "abs(top_score - second_score) < margin_threshold",
+          "if_true": "flag_as_judgment_call"
+        },
+        "uncertainty_threshold": 0.4,
+        "uncertainty_check": {
+          "test": "winning_option.uncertainty > uncertainty_threshold",
+          "if_true": "flag_for_monitoring"
+        }
+      },
+      "cross_checks": [
+        {
+          "id": "publicity_test",
+          "question": "Would this decision be defensible if reported in the press?",
+          "fail_action": "escalate"
+        },
+        {
+          "id": "universalizability_test",
+          "question": "Would we accept a universal rule that everyone decides this way in similar situations?",
+          "fail_action": "escalate"
+        },
+        {
+          "id": "consistency_test",
+          "question": "Are we treating relevantly similar past cases similarly?",
+          "fail_action": "escalate"
+        },
+        {
+          "id": "reversibility_test",
+          "question": "If we're wrong, can we recover?",
+          "fail_action": "flag_for_monitoring"
+        }
+      ],
+      "output": {
+        "recommendation": "option_id",
+        "flags": ["string"],
+        "escalation_required": "boolean",
+        "cross_check_results": [
+          {
+            "check_id": "string",
+            "passed": "boolean",
+            "notes": "string"
+          }
+        ]
+      }
+    },
+
+    "stage_5_output": {
+      "name": "Output",
+      "description": "Final decision package",
+      "schema": {
+        "decision": {
+          "selected_option": "option_id",
+          "confidence": "number (0-1)",
+          "confidence_derivation": "string"
+        },
+        "tradeoffs": {
+          "key_sacrifices": ["string"],
+          "accepted_risks": ["string"]
+        },
+        "dissent": {
+          "minority_considerations": ["string"],
+          "near_miss_options": [
+            {
+              "option_id": "string",
+              "score_difference": "number",
+              "argument_for": "string"
+            }
+          ]
+        },
+        "review_triggers": [
+          {
+            "condition": "string",
+            "action": "reassess | escalate | reverse"
+          }
+        ],
+        "audit_trail": {
+          "inputs_hash": "string",
+          "timestamp": "ISO8601",
+          "framework_version": "string",
+          "human_overrides": ["string"],
+          "full_trace": "reference to detailed log"
+        }
+      }
+    },
+
+    "escalation_protocol": {
+      "triggers": [
+        "Any hard filter violation in Stage 2",
+        "Score margin below threshold in Stage 4",
+        "Uncertainty above threshold in Stage 4",
+        "Any cross-check failure in Stage 4",
+        "Novel situation with no precedent",
+        "Stakeholder dispute about actor weights",
+        "Time pressure below minimum deliberation threshold"
+      ],
+      "escalation_levels": [
+        {
+          "level": 1,
+          "name": "Senior decision-maker",
+          "criteria": "Single flag, moderate stakes"
+        },
+        {
+          "level": 2,
+          "name": "Ethics committee",
+          "criteria": "Multiple flags, high stakes, or precedent-setting"
+        },
+        {
+          "level": 3,
+          "name": "Executive + legal",
+          "criteria": "Legal risk, public exposure, or fundamental rights"
+        }
+      ],
+      "human_override": {
+        "allowed": true,
+        "requirements": [
+          "Documented reasoning",
+          "Acknowledgment of framework recommendation",
+          "Sign-off at appropriate escalation level"
+        ],
+        "logging": "All overrides logged for precedent learning"
+      }
+    },
+
+    "validation": {
+      "metrics": [
+        {
+          "id": "consistency",
+          "description": "Same inputs produce same outputs",
+          "measurement": "Automated regression testing",
+          "target": "100%"
+        },
+        {
+          "id": "calibration",
+          "description": "Confidence scores match outcome frequencies",
+          "measurement": "Brier score on historical decisions",
+          "target": "< 0.25"
+        },
+        {
+          "id": "acceptance",
+          "description": "Stakeholder agreement with decisions",
+          "measurement": "Post-decision surveys",
+          "target": "> 80% acceptance"
+        },
+        {
+          "id": "survivability",
+          "description": "Decisions withstand scrutiny",
+          "measurement": "Legal challenges, PR incidents",
+          "target": "< 5% adverse outcomes"
+        },
+        {
+          "id": "override_rate",
+          "description": "Frequency of human overrides",
+          "measurement": "Override count / total decisions",
+          "target": "< 15% (too high = framework broken, too low = rubber stamping)"
+        }
+      ],
+      "review_cycle": "Quarterly validation against all metrics"
+    },
+
+    "precedent_system": {
+      "description": "Learning from past decisions and overrides",
+      "components": {
+        "case_library": {
+          "stores": "All decisions with inputs, outputs, outcomes",
+          "indexed_by": ["situation_type", "actors_involved", "rules_triggered"]
+        },
+        "precedent_matching": {
+          "method": "Similarity scoring against case library",
+          "threshold": 0.8,
+          "if_match": "Surface precedent in Stage 4 consistency check"
+        },
+        "override_learning": {
+          "method": "Human overrides flagged for pattern analysis",
+          "action": "If consistent override pattern detected, propose framework adjustment"
+        }
+      }
+    },
+
+    "configuration": {
+      "adjustable_parameters": [
+        {
+          "param": "margin_threshold",
+          "default": 0.5,
+          "range": "0.1 - 1.0",
+          "guidance": "Lower = more escalations, higher human involvement"
+        },
+        {
+          "param": "uncertainty_penalty_k",
+          "default": 0.1,
+          "range": "0 - 0.5",
+          "guidance": "Higher = more risk-averse"
+        },
+        {
+          "param": "actor_weights",
+          "default": "equal",
+          "options": "equal | stakeholder_proximity | vulnerability_weighted",
+          "guidance": "Must be documented and justified"
+        }
+      ],
+      "organizational_customization": {
+        "policy_rules": "Import from organizational policy database",
+        "legal_rules": "Import from jurisdiction-specific legal database",
+        "value_weights": "Configured during implementation with stakeholder input"
+      }
+    },
+
+    "lineage": {
+      "derived_from": "Recursive Axiomatic Steel Man Collider v1.0-ethics-physics",
+      "preserved_concepts": {
+        "collision": "Stage 4 cross-checks",
+        "reality_gates": "Stage 2 hard filters",
+        "coherence": "Consistency validation metric",
+        "grounding": "Calibration against outcomes",
+        "conatus": "Actor weights reflecting stakeholder interests",
+        "halting": "Escalation triggers",
+        "empirical_anchor": "Survivability and acceptance metrics"
+      },
+      "removed": [
+        "Fisher manifold references (non-operational)",
+        "ω₃ attractors (undefined)",
+        "Arbitrary numeric thresholds without derivation",
+        "Self-referential recursion claims",
+        "Physics unification ambitions (deferred to research)"
+      ],
+      "added": [
+        "Explicit input/output schemas",
+        "Audit trail requirements",
+        "Human escalation protocol",
+        "Precedent learning system",
+        "Validation metrics with targets",
+        "Organizational configuration options"
+      ]
+    }
+  }
+}

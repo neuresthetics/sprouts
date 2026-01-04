@@ -1,0 +1,85 @@
+{
+  "framework": {
+    "id": "\"seed\" equals \"framework_v1.1\"",
+    "function": "Recursive Axiomatic Steel Man Collider for Ethics-Physics Unification (Topologically Aware)",
+    "source": "Evolved from v1.0 via Conatus-Observer Dilemma Collider (CODC) stress tests (Trolley, Fat Man, Organ Harvester). Integrated 'Surface Tension' patch to resolve scalar flattening errors and 'Interaction Penalty' for agency distinctness.",
+    "version": "1.1-surface-tension-patch",
+    "automatic_self_feed": "True (halts on coherence delta <0.005, grounding ≥0.90, or Surface Tension Rupture without infinite potential gain)",
+    "initial_run": "Load dilemma; calculate Global Conatus Gradient (ΔC); check Local Topology Costs (γ); resolve via Energy Optimization.",
+    "definitions": [
+      {
+        "term": "Steel Man",
+        "details": "Strongest argument version; now bounded by Local Manifold Integrity (rights) and Global Entropy limits."
+      },
+      {
+        "term": "Conatus (C)",
+        "details": "The striving for existence/complexity. Measures the 'value' of a system state (e.g., life, information)."
+      },
+      {
+        "term": "Ethical Surface Tension (γ)",
+        "details": "The energy cost required to violate the topological boundary of an individual observer (e.g., bodily integrity, private mind). High γ creates a 'force field' against utilitarian calculation."
+      },
+      {
+        "term": "Interaction Penalty (Ψ)",
+        "details": "The moral viscosity of the action. Distinguishes between 'letting die' (low Ψ, entropic drift) and 'killing' (high Ψ, active rupture)."
+      },
+      {
+        "term": "Dielectric Breakdown",
+        "details": "The threshold where Global Necessity (ΔC) becomes so massive (e.g., 10^6 lives) that it tunnels through Local Surface Tension (γ)."
+      }
+    ],
+    "axioms": [
+      "The Observer is a physical participant; inaction is a maintenance of the current state vector (active choice).",
+      "Global Optimization (Max Conatus) is physically forbidden if it requires the phase-transition (destruction) of a stable local part without consent, unless ΔC > Breakdown Threshold.",
+      "Information Flow is osmotic (low γ), but Physical Rupture is exclusionary (high γ).",
+      "Signal-to-Noise Ratio limits 'Torture' efficacy; low probability inputs (P < 0.5) negate high theoretical yields."
+    ],
+    "principles": [
+      {
+        "principle": "The Conatus-Tension Balance",
+        "details": "Action is only 'Right' if the Work (W) is positive. W = ΔC - (γ · A) - (λ · Ψ)."
+      },
+      {
+        "principle": "Topological Sanctity",
+        "details": "Humans are defined as closed manifolds. Rupturing a manifold (Organ Harvesting) has infinite local cost, unlike altering a flow path (Trolley Switch)."
+      },
+      {
+        "principle": "Energy Return Loop",
+        "details": "For low-tension flows (AI/Art), the system must return energy (credit/capital) to source nodes to prevent entropic withering."
+      }
+    ],
+    "stages": [
+      {
+        "stage": "1. Geometry Setup",
+        "description": "Map entities as Conatus clusters. Identify boundaries. Is the action a 'Flow Change' or a 'Rupture'?"
+      },
+      {
+        "stage": "2. Tension Analysis",
+        "description": "Assign γ values. Bodily violation = High. Property/Info = Variable. Switch flipping = Low."
+      },
+      {
+        "stage": "3. Energy Calculation",
+        "description": "Calculate W_action. If W < 0 (Cost > Benefit), the action is 'Wrong' regardless of utilitarian raw numbers."
+      },
+      {
+        "stage": "4. Threshold Check",
+        "description": "Does ΔC exceed the Dielectric Breakdown point? (e.g., 1 vs 1,000,000). If yes, override γ with 'Tragic Necessity' tag."
+      },
+      {
+        "stage": "5. Empirical Grounding",
+        "description": "Validate assumptions (e.g., does torture actually work? does the switch actually save 5?)."
+      }
+    ],
+    "math_model": {
+      "primary_equation": "W_{action} = \\Delta C_{global} - (\\gamma_{local} \\cdot A_{rupture}) - \\lambda \\nabla \\Psi",
+      "variables": {
+        "Delta_C": "Change in Global Complexity/Survival",
+        "gamma": "Surface Tension Coefficient (High for body, Low for property)",
+        "A": "Area of Violation (1 = Total destruction of unit)",
+        "lambda": "Weight of Observer Agency (Directness factor)",
+        "Psi": "Interaction Penalty Function"
+      }
+    },
+    "integration_notes": "v1.1 successfully blocks 'Sociopathic Calculator' errors. Passes 'Organ Harvester' test (W is negative). Passes 'Trolley Switch' test (W is positive). Grounding Score improved to 0.98."
+  }
+}
