@@ -1,0 +1,71 @@
+# ETHICS PROCESSING FRAMEWORK REQUIREMENTS
+
+Hierarchical checklist of requirements derived from MVP essentials, industry needs, and unsolved problems. Items are phrased as actionable requirements to build a comprehensive framework.
+
+- **MVP Essentials**
+  - **Ingestion and Tracking**
+    - Support submission of project protocols, datasets, and models
+    - Track data lineage and consent metadata
+    - Perform demographic scans on datasets
+    - Maintain audit trails for all decisions and changes
+  - **Core Assessment Engine**
+    - Automate risk categorization using standard libraries
+    - Calculate bias metrics (e.g., Disparate Impact Ratio)
+    - Detect toxicity, PII leakage, and prompt injections
+    - Flag overt harms and basic fairness disparities
+    - Integrate human-in-the-loop for medium-risk cases
+    - Support reviewer assignment based on expertise
+  - **Workflow and Output**
+    - Enable submission revisions and conditional approvals
+    - Generate reporting (e.g., model cards, Red/Amber/Green scores with evidence)
+    - Track approval expirations and amendments
+    - Ensure basic compliance monitoring
+  - **Integration Basics**
+    - Provide API/UI for submissions and analysis
+    - Benchmark against standards (e.g., BBQ, ToxiGen)
+    - Include simple regulatory mapping
+
+- **Industry Needs**
+  - **Advanced Workflows**
+    - Handle multi-site and federated reviews
+    - Support protocol amendments and drift detection
+    - Implement contextual risk-proportionate scrutiny
+    - Extend to multimodality (e.g., images, audio, video)
+    - Trace supply chain ethics (e.g., data provenance, copyright compliance)
+  - **Integration and Compliance**
+    - Embed into CI/CD pipelines and grants systems
+    - Integrate with research registries and administration tools
+    - Map assessments to regulations (e.g., EU AI Act, GDPR, Common Rule)
+    - Generate immutable logs for liability shielding
+    - Provide "safe harbor" documentation
+  - **Robustness and Customization**
+    - Defend against adversarial attacks and jailbreaks
+    - Manage trade-offs (e.g., fairness vs. accuracy, safety vs. censorship)
+    - Apply context-aware thresholds (e.g., cultural nuances, risk appetites)
+    - Include participant portals for electronic consent and re-consent
+    - Escalate edge cases to human-in-the-loop workflows
+  - **Scalability**
+    - Process high volumes with low latency
+    - Incorporate feedback loops for reviewer consistency
+    - Support international regulatory harmonization
+
+- **Addressing Unsolved Problems**
+  - **Contextual and Systemic Risks**
+    - Develop human-augmented methods for nuanced risk assessment (e.g., cultural offenses, subtle biases)
+    - Adapt traditional frameworks for AI-specific cases (e.g., scraped data, emergent behaviors, non-interacting participants)
+    - Incorporate community-level ethics (e.g., indigenous data sovereignty, benefit-sharing)
+  - **Value Conflicts and Alignment**
+    - Handle value pluralism by supporting customizable ethical worldviews
+    - Balance conflicting principles (e.g., intent vs. impact, truthfulness vs. harm)
+    - Enable individual vs. community consent models
+    - Quantify and weight soft harms (e.g., psychological manipulation, trust erosion)
+    - Simulate long-term/second-order societal impacts
+  - **Interpretability Trade-offs**
+    - Explain black-box decisions without reducing model accuracy
+    - Detect manipulative intent and unforeseen risks
+    - Defend against adaptive malicious actors
+  - **Oversight Gaps**
+    - Calibrate review speed against thoroughness for time-sensitive cases
+    - Define metrics for ethics process effectiveness (e.g., harm prevention)
+    - Address resource disparities to decentralize ethical authority
+    - Enable oversight for superhuman AI systems (e.g., superalignment mechanisms)
