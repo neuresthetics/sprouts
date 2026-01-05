@@ -1,11 +1,14 @@
 # sprouts
 "seed"s with different soil.
 
+Ethics Engine Edition:
 
 ---
 
 
-# SEED 10.0 - Enhanced-Transparency Framework
+# a seed grown to v10.0 for Ethics, achieving MVP by government standards.
+
+This growth was documented in /Gene Bin Phased. A seed was rendered through each model, then put back together as a base with the best of all three. After that came general functional tests, and then after that a full battery of comprehensive pitfalls for meta analysis which resulted in 10 here.
 
 ## Overview
 
