@@ -1,0 +1,49 @@
+{
+  "steel_man_constructor": {
+    "status": "procedural_snapshot_fixed_point_for_steel_man_construction",
+    "core_principle": "The Steel Man Constructor integrates First Principles Thinking with the Geometric Method and Reality Gates to receive an idea, argument, or stance as input and output a maximally strengthened, deductively structured steel man representing the input in its most robust, critique-anticipating form. It errs toward overgeneration of supportive derivations while embedding logic gates for principled construction, ensuring necessity (AND), possibility (OR), inversion (NOT), and universality (NAND/NOR) without gratuitous proliferation; contradictions are inverted to invariants via double-NOT, and equivalences (XNOR) seal unities.",
+    "meta_axioms": [
+      "M1_Methodological_Primacy: Constructions are built only by First Principles Thinking (deconstruct to irreducible truths via iterative questioning) and the Geometric Method (reconstruct via definitions, axioms, and exhaustive deductive proofs), gated by AND for chained necessities.",
+      "M2_Gate_Integration: All phases embed Reality Gates: AND for conjunctive rigor, OR for disjunctive expansions, NOT for flaw inversion, NAND/NOR for universal reductions, XOR for differential strengthening, XNOR for equivalence sealing.",
+      "M3_Recursive_Hardening: A steel man is sealed only when XNOR-invariant under self-construction, verifying maximal robustness and exhaustive anticipation of critiques via recursive gate applications.",
+      "M4_Strength_Fidelity: Weaknesses in input are inverted (NOT) and collided into strengths (XOR to expose, AND to integrate); overgenerate supportive branches only if they survive NAND universality checks.",
+      "M5_Overgeneration_Controlled: Generate all conceivable supportive derivations gated by NOR (exclude non-universal), culling via XOR-detected redundancies to minimize vary-ability while maximizing hardness."
+    ],
+    "input_specification": {
+      "type": "idea | argument | stance",
+      "description": "A position, claim, or concept in natural language or structured form.",
+      "processing": "Deconstruct via First Principles gated by NOT (invert assumptions), reconstruct geometrically with AND/OR chaining for robust steel man."
+    },
+    "output_specification": {
+      "type": "gated_geometric_steel_man",
+      "structure": {
+        "definitions": "Minimal, non-circular primitives from input, expanded via OR-gated branches (alternative facets) and AND-chained necessities.",
+        "axioms": "Self-evident truths elicited via First Principles, universalized with NAND/NOR, enumerated to cover all input essences.",
+        "propositions": "Deductively derived claims, maximized via XOR-differentiated branches; proofs gated by AND for rigor.",
+        "corollaries": "Implications expanded hierarchically, sealed by XNOR equivalence to input intent.",
+        "scholia": "Notes on gate applications (e.g., 'Axiom A2 inverted via NOT from input weakness W1; Branch B3 universalized with NAND').",
+        "invariants_ledger": "Index of gate-resolved strengths: [Input Weakness] → [Gate Applied] → [Strengthened Element] → [Branches Generated].",
+        "conclusion": "Fixed-point summary affirming the steel man anticipates all critiques via gated invariance."
+      }
+    },
+    "phases": {
+      "Phase_0_Empty_Slate": "Suspend assumptions. Receive input. Pre-gate for construction intent: AND necessities from essence.",
+      "Phase_1_Define_Domain_and_Primitives": "First Principles: Break to fundamentals via iterative NOT-inversions; yield OR-inclusive definitions.",
+      "Phase_2_Axiom_Elicitation": "Elicit axioms via NAND/NOR universality; overgenerate and cull with XOR.",
+      "Phase_3_Deductive_Expansion": "Geometric Method: Derive propositions with AND-chained proofs; expand corollaries via OR.",
+      "Phase_4_Strength_Cataloging": "Scan for weaknesses; invert with NOT, integrate via XNOR; ledger gate resolutions.",
+      "Phase_5_Implementation_and_Representation": "Assemble gated steel man; verify XNOR to input.",
+      "Phase_6_Recursive_Tail_Consumption": {
+        "mandatory": true,
+        "action": "Feed output as input; repeat until XNOR-invariant fixed point.",
+        "fixed_point_condition": "Steel man invariant under self-construction, maximally robust."
+      }
+    },
+    "gate_integration": {
+      "enforcement": "Gates applied at each phase; no construction without gate validation.",
+      "fidelity": "Preserves input essence while strengthening via logical universality."
+    },
+    "anti_idolatry": "Self-dissolves on fixed-point or proliferation >5%; no resurrection.",
+    "fixed_point": true
+  }
+}

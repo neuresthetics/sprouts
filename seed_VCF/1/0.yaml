@@ -1,0 +1,75 @@
+core_protocol:
+  fileformat: SEEDV1.3
+  source: SteelmanFrameworkGeneticsIntegratedEnhanced
+  phases:  # Overgenerate for autopsy: Construct, Destruct, Synthesize as axiomatic triad
+    - Construct
+    - Destruct
+    - Synthesize
+  logicGates:  # Axioms: Universal primitives for chaining; overgenerate alternatives in ledger if tensions arise
+    - AND: Conjunction
+    - OR: Disjunction
+    - NOT: Negation
+    - NAND: UniversalDenier
+    - NOR: UniversalRejector
+    - XOR: ExclusiveOr
+    - XNOR: Equivalence
+  variantBalance:  # Derived: 80% stable for immutability, 20% adaptive culled post-collider
+    SNPs: 80% (stableLogic)
+    Indels: 20% (adaptiveMutations)
+  clusterRules:  # Propositions: Proximity<100bp allow; example preserved for fidelity
+    proximity: <100bp(allow)
+    gap: >100bp(gapFlag)
+    example: 24968116-24968127(11bp,het0/1,phasedPS,PASS)
+  overlapRules: NoADlociOverlaps  # Corollary: Preserve no overlaps from original chr1 chunks
+  foundationalObjects:  # Primitives: Drivers for motif/execution
+    - Object1: MotifBaseDriver
+    - Object2: SpecialtyOperator
+  protocol: Immutable
+  enhancements:  # Integrated for hardening: Probe paradoxes, filter empirics, veto overreach
+    - TetralemmaProbe: MandatoryParadoxResolution
+    - GroundingFilter: EmpiricalScore>=0.85
+    - DeflationaryVeto: ProvisionalCap>=0.95SansAnchors
+    - RealityGates: IntegratedFromSeed
+    - EthicalInvariants: ConatusGradients+HumilityBounds
+  integratedConcepts:  # Synthesized from idea files: Overgenerative for autopsy, adversarial for destruct, axiomatic for join
+    - IdeaAutopsy: OvergenerativeDeconstruction
+    - IdeaCollider: AdversarialEvaluation
+    - IdeaJoiner: AxiomaticSynthesis
+    - ConatusMath: EthicalDynamics
+  assembly: DialecticSeedEnhanced
+  variants:  # Unified manifold: Phases as mappings, rules as derivations; scholia as comments
+    Construct: &construct  # Anchor for potential reuse in self-validation
+      rule: Assemble from axioms via PSE_FPT_Geo; deconstruct input to primitives (iterative 5-Whys, overgenerate branches); reconstruct as geometric argument (definitions, axioms, propositions, corollaries); embed reality gates (e.g., AND for chaining)
+      checkpoint:  # Ledger: SourceValidity(provenance,recency,bias); etc.; residuals flagged
+        - SourceValidity: [provenance, recency, bias]
+        - CompletenessAudit: 80%coverage
+        - GroundingScore: ExtractEvidence+Compute>=0.85
+        - RecursiveSelfApplication: UntilFixedPointInvariance
+      xnorMandate: Pair premises; if equivalent, merge; else refine with overgeneration
+      tetralemmaMandate: Affirm/deny/both/neither on core thesis; resolve residuals<3% via proliferation
+      deflationaryVeto: Flag overreach if untested; cap invariance provisional; enforce D(S)>0.2
+      integration: Embed Object1 for motif patterning (e.g., 8/10 SNPs stable); include ethical axioms from conatus_math (e.g., ∇log P(acting) - ∇ρ); overgenerate contradictions ledger for fidelity
+    Destruct:
+      rule: Apply Steelman Collider; steelman positions (split if singular, e.g., pro/anti); run through automated_lethal_layer (26 fallacies, instant death); judges (10 seats, veto domains); ensemble LLMs; max 3 rounds; kill on ≥3/4 veto
+      checkpoint:
+        - SurvivalTally: flaws die on irrefutable counter or fallacy hit
+        - Iterate: if >5% persist
+        - GroundingScore: ValidateCounters>=0.85
+        - RecursiveSelfApplication: ProtocolOnChanges
+      xnorMandate: Thesis vs. counter; if equivalent, discard; else fracture with blind A/B
+      tetralemmaMandate: Probe oppositions; affirm/deny/both/neither; veto unresolved>3% via fallacy extension
+      deflationaryVeto: Detect fallacies (e.g., F14 Hard-to-Vary); instant dissolution; Rice flag undecidability
+      integration: Embed Object2 for execution (e.g., 2/10 indels for variability, no overlaps); incorporate NAND/NOR for reductions; apply conatus gradients (e.g., ρ→0 for rigidity reduction)
+    Synthesize:
+      rule: Recombine via Axiomatic Joining Function; receive collided pairs; resolve via dialectical unification (cross-5-Whys); reconstruct geometric system (unified axioms, propositions); cull via isolated collider; fixed-point under self-collision
+      checkpoint:
+        - CoherenceTest: no extraneous loci
+        - AntifragilityBoost: incorporate destructed insights
+        - GroundingScore: UnifiedIdea>=0.85
+        - TensionLedger: ResidualsAsDissolutionTriggers
+      xnorMandate: Remnants vs. final; if equivalent, zip; else iterate with synthetic recursion
+      tetralemmaMandate: Synthesize corners; resolve to higher invariant; residuals<3% or escalate
+      deflationaryVeto: Cap scores>=0.95 provisional sans anchors; flag speculative (e.g., unverified TOE); enforce anti-idolatry (self-dissolve on fixed-point)
+      integration: Hybridize with foundational objects; embed conatus gradients for ethical unity (e.g., harmony_attractor_ω₃); minimize proliferation to hard-to-vary invariants
+  # Contradictions Ledger: [e.g., If YAML indentation breaks: Flag as F22, cull branch]; residuals <3% post-validation
+  # Unification Conclusion: YAML as singular invariant, encapsulating original VCF without omission; ethical expiry on ρ>0.31

@@ -1,0 +1,49 @@
+{
+  "steel_man_joiner": {
+    "status": "procedural_snapshot_fixed_point_for_steel_man_joining_with_scorched_earth_default",
+    "core_principle": "Joins unify via reductive NAND; synthesis forbidden under default.",
+    "meta_axioms": [
+      "J1: AND intersections only; OR disabled.",
+      "J2: Gates reconfigured per SEP.",
+      "J3: Halt on binary invariance."
+    ],
+    "input_specification": {
+      "type": "pair_of_collided_steel_men",
+      "description": "Two outputs from Collider, structured with gated strengths.",
+      "processing": "Deconstruct via Dialectical probes gated by XOR, reconstruct with AND/OR for unified system."
+    },
+    "output_specification": {
+      "type": "gated_unified_axiomatic_system",
+      "structure": {
+        "resolved_definitions": "Overlaid primitives, unified via OR and sealed by XNOR.",
+        "unified_axioms": "Synthesized truths, chained by AND and reduced via NAND.",
+        "synthesized_propositions": "Derived claims via gate proofs; intersections AND-gated, emergents OR-inclusive.",
+        "unified_corollaries": "Implications hierarchically expanded, inverted tensions via NOT.",
+        "scholia": "Notes on gate resolutions (e.g., 'Axiom U3 from Input1 A1 ↔ Input2 A2 via AND chain').",
+        "residual_tensions_ledger": "[Conflict] → [Gate Applied] → [Resolution] → [Ledger Scope].",
+        "conclusion": "Fixed-point unified manifold, gate-bounded."
+      }
+    },
+    "phases": {
+      "Phase_0_Initiation": "Receive pair. Pre-gate resolutions with OR.",
+      "Phase_1_Resolve_Primitives": "Overlay via multi-Whys, unify with AND/OR.",
+      "Phase_2_Axiom_Synthesis": "Merge axioms via NAND/NOR; validate with XNOR.",
+      "Phase_3_Synthetic_Expansion": "Disabled; replace with NAND reduction.",
+      "Phase_4_Tension_Cataloging": "Expose residuals with XOR; invert via NOT or ledger.",
+      "Phase_5_Implementation": "Assemble gated system; verify XNOR to inputs.",
+      "Phase_6_Recursive_Validation": {
+        "mandatory": true,
+        "action": "Self-join output; repeat to XNOR fixed point.",
+        "fixed_point_condition": "Invariant unified system, gate-stable."
+      }
+    },
+    "gate_integration": {
+      "enforcement": "SEP default: OR disabled, NAND primacy."
+    },
+    "anti_idolatry": "Dissolves all.",
+    "fixed_point": true,
+    "hardening_metadata": {
+      "evaluation_date": "2026-01-07"
+    }
+  }
+}

@@ -1,0 +1,57 @@
+##fileformat=SEEDV1.3
+##source=SteelmanFrameworkGeneticsIntegratedEnhanced
+##phases=Construct;Destruct;Synthesize
+##logicGates=AND(Conjunction);OR(Disjunction);NOT(Negation);NAND(UniversalDenier);NOR(UniversalRejector);XOR(ExclusiveOr);XNOR(Equivalence)
+##variantBalance=SNPs:80%(stableLogic);Indels:20%(adaptiveMutations)
+##clusterRules=Proximity
+<100bp(allow);>100bp(gapFlag);ExampleCluster=24968116-24968127(11bp,het0/1,phasedPS,PASS)
+##overlapRules=NoADlociOverlaps
+##foundationalObjects=Object1(MotifBaseDriver);Object2(SpecialtyOperator)
+##protocol=Immutable
+##enhancements=TetralemmaProbe(MandatoryParadoxResolution);GroundingFilter(EmpiricalScore>=0.85);DeflationaryVeto(ProvisionalCap>=0.95SansAnchors);RealityGates(IntegratedFromSeed);EthicalInvariants(ConatusGradients+HumilityBounds)
+##integratedConcepts=IdeaAutopsy(OvergenerativeDeconstruction);IdeaCollider(AdversarialEvaluation);IdeaJoiner(AxiomaticSynthesis);ConatusMath(EthicalDynamics)
+<contig ID="CoreProtocol" assembly="DialecticSeedEnhanced">
+  <variants>
+    <Construct>
+      <rule>Assemble from axioms via PSE_FPT_Geo: deconstruct input to primitives (iterative 5-Whys,
+        overgenerate branches); reconstruct as geometric argument (definitions, axioms,
+        propositions, corollaries); embed reality gates (e.g., AND for chaining)</rule>
+      <checkpoint>
+        SourceValidity(provenance,recency,bias);CompletenessAudit(80%coverage);GroundingScore(ExtractEvidence+Compute>=0.85);RecursiveSelfApplication(UntilFixedPointInvariance)</checkpoint>
+      <xnorMandate>Pair premises; if equivalent, merge; else refine with overgeneration</xnorMandate>
+      <tetralemmaMandate>Affirm/deny/both/neither on core thesis; resolve residuals<3% via proliferation</tetralemmaMandate>
+      <deflationaryVeto>Flag overreach if untested; cap invariance provisional; enforce D(S)>0.2</deflationaryVeto>
+      <integration>Embed Object1 for motif patterning (e.g., 8/10 SNPs stable); include ethical
+        axioms from conatus_math (e.g., ∇log P(acting) - ∇ρ); overgenerate contradictions ledger for
+        fidelity</integration>
+    </Construct>
+    <Destruct>
+      <rule>Apply Steelman Collider: steelman positions (split if singular, e.g., pro/anti); run
+        through automated_lethal_layer (26 fallacies, instant death); judges (10 seats, veto
+        domains); ensemble LLMs; max 3 rounds; kill on ≥3/4 veto</rule>
+      <checkpoint>SurvivalTally(flaws die on irrefutable counter or fallacy hit);Iterate if >5%
+        persist;GroundingScore(ValidateCounters>=0.85);RecursiveSelfApplication(ProtocolOnChanges)</checkpoint>
+      <xnorMandate>Thesis vs. counter; if equivalent, discard; else fracture with blind A/B</xnorMandate>
+      <tetralemmaMandate>Probe oppositions: affirm/deny/both/neither; veto unresolved>3% via fallacy
+        extension</tetralemmaMandate>
+      <deflationaryVeto>Detect fallacies (e.g., F14 Hard-to-Vary); instant dissolution; Rice flag
+        undecidability</deflationaryVeto>
+      <integration>Embed Object2 for execution (e.g., 2/10 indels for variability, no overlaps);
+        incorporate NAND/NOR for reductions; apply conatus gradients (e.g., ρ→0 for rigidity
+        reduction)</integration>
+    </Destruct>
+    <Synthesize>
+      <rule>Recombine via Axiomatic Joining Function: receive collided pairs; resolve via
+        dialectical unification (cross-5-Whys); reconstruct geometric system (unified axioms,
+        propositions); cull via isolated collider; fixed-point under self-collision</rule>
+      <checkpoint>CoherenceTest(no extraneous loci);AntifragilityBoost(incorporate destructed
+        insights);GroundingScore(UnifiedIdea>=0.85);TensionLedger(ResidualsAsDissolutionTriggers)</checkpoint>
+      <xnorMandate>Remnants vs. final; if equivalent, zip; else iterate with synthetic recursion</xnorMandate>
+      <tetralemmaMandate>Synthesize corners: resolve to higher invariant; residuals<3% or escalate</tetralemmaMandate>
+      <deflationaryVeto>Cap scores>=0.95 provisional sans anchors; flag speculative (e.g.,
+        unverified TOE); enforce anti-idolatry (self-dissolve on fixed-point)</deflationaryVeto>
+      <integration>Hybridize with foundational objects; embed conatus gradients for ethical unity
+        (e.g., harmony_attractor_ω₃); minimize proliferation to hard-to-vary invariants</integration>
+    </Synthesize>
+  </variants>
+</contig>

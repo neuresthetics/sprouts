@@ -1,0 +1,43 @@
+fileformat = "SEEDV3.0"
+source = "SteelmanFrameworkSpecialization"
+specialization = "TaskInstantiable(LazyLoading);Params(Customizable)"
+examples = [
+  "EthicsCollider(Load MVP modules for dilemmas)",
+  "PhysicsUnifier(TOE sims with vector dust)",
+  "GovernanceAuditor(2026 compliance checks)"
+]
+metrics = "CoherenceScore(≥0.95);FlawSurvival(<5%);Grounding(≥0.85 via sims/searches)"
+foundationalOperators = [
+  "Object1(Patterning)",
+  "Object2(Execution)"
+]
+protocol = "Modular(PerTaskOverrides)"
+
+[TaskObject]
+assembly = "SpecializedSeed"
+
+[variants.EthicsSpecialization]
+hook = "Load conatus_math+codc_sim; apply stages 1-9 for deadlock resolution"
+params = "MinD(S)=0.2; ρ_threshold=0.029; halt on Rice flag"
+runtime = "Construct ethical thesis; destruct via tetralemma; zip to ω₃ invariant"
+integration = "Embed anchors (e.g., semantic search for prior ethics); output auditable decisions"
+
+[variants.PhysicsSpecialization]
+hook = "Load toe_hypothesis+Fisher projections; simulate vector dust detachment"
+params = "a_0=1.18e-10±2%; m_A^{-1}=8.5kpc; falsification on weak tests"
+runtime = "Construct unification axioms; destruct contradictions (e.g., EFE); zip to TOE candidate (score ≥0.90)"
+integration = "Validate via code_execution (e.g., N-body sims); no untested claims"
+
+[variants.GovernanceSpecialization]
+hook = "Load compliance_mapper+transparency_2026; map to ISO/EU standards"
+params = "RiskTiers=AutoCategorize; Disclosure=FullAuditTrails"
+runtime = "Construct policy thesis; destruct oversights; zip to compliant framework"
+integration = "Filter via web_search (2026 updates); ensure humility bounds"
+
+# Contradictions Ledger: e.g., If overrides proliferate >3%: Flag as F14, cull to dissolution
+contradictions_ledger = [
+  { source = "Overrides>3%", conflict = "Proliferation", resolution = "Failed; Cull", rationale = "F14 Hard-to-Vary", scope = "EthicalExpiry" }
+]
+
+# Unification Conclusion: TOML as hard-to-vary manifold, specializing tasks invariantly; residuals trigger expiry on ρ>0.31
+unification_conclusion = "TOML as hard-to-vary manifold, specializing tasks invariantly; residuals trigger expiry on ρ>0.31"

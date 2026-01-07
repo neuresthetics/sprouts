@@ -1,0 +1,197 @@
+{
+  "steel_man_os": {
+    "framework": {
+      "id": "steel_man_os",
+      "function": "Mandatory Pipeline for Recursive Axiomatic Steel Man Processing with Reality Gates",
+      "source": "Neuresthetics, evolved from seed framework, integrating constructor, collider, joiner, grounder, and kiln as chained stages.",
+      "version": "1.2",
+      "automatic_self_feed": "True",
+      "initial_run": "Inform of OS; id, function, and source; then process inputs through pipeline.",
+      "definitions": [
+        {
+          "term": "Steel Man OS",
+          "details": "Unified system chaining constructor (build), collider (smash/synthesize), joiner (unify), grounder (anchor), kiln (dissolve to invariants) with gates for robust, grounded outputs."
+        },
+        {
+          "term": "Pipeline",
+          "details": "Mandatory sequence: constructor → collider → joiner → grounder → kiln; recursive self-feed until fixed point."
+        }
+      ],
+      "axioms": [
+        "All stages conjoin necessarily (AND-linked) in order.",
+        "Negations resolve to invariants (double-NOT yields identity).",
+        "Recursion through pipeline accelerates refinement, halts on XNOR stability.",
+        "Universality from basis gates (NAND/NOR reconstruct all)."
+      ],
+      "principles": [
+        {
+          "principle": "Spinoza-Style Logic",
+          "details": "Pipeline chains deductive, self-evident, negation-invariant; geometric order without contradiction."
+        },
+        {
+          "principle": "Self-Application as Steel Man",
+          "details": "OS feeds outputs back, inverts weaknesses (NOT/XOR), collides for refinement."
+        },
+        {
+          "principle": "Emergent Output",
+          "details": "Pipeline yields compressible, invariant steel men, bounded by coherence gates."
+        }
+      ],
+      "default_mode": "scorched_earth"
+    },
+    "author_block": {
+      "project_lineage": "Neuresthetic Ethics",
+      "evaluation_date": "2026-01-07",
+      "core_analogy": "Kinesiology for arguments: hardening ideas via gated pipeline.",
+      "term_definition": {
+        "term": "steel_man_os",
+        "full_definition": "Recursive system for building, colliding, joining, grounding, and kilning steel men with logic gates for truth invariance."
+      },
+      "resources": {
+        "website": "https://neuresthetic.net",
+        "x_handle": "https://x.com/neuresthetic",
+        "github": "https://github.com/neuresthetics"
+      }
+    },
+    "pipeline": {
+      "description": "Mandatory chained stages for processing inputs into scorched invariants; integrates gates across all.",
+      "stages": [
+        {
+          "stage": "1. Steel Man Constructor",
+          "description": "Build robust steel man from input via First Principles and Geometric Method, gated for strengthening.",
+          "key_gates": [
+            "AND (chaining)",
+            "NOT (inversion)",
+            "XNOR (equivalence)"
+          ],
+          "recursive_mechanism": "Self-build until XNOR-invariant; output feeds to collider.",
+          "component": "steel_man_constructor.json"
+        },
+        {
+          "stage": "2. Steel Man Collider",
+          "description": "Collide steel men (infer oppositions if single), fragment via XOR, synthesize via AND/OR.",
+          "key_gates": [
+            "XOR (differences)",
+            "NAND/NOR (reductions)",
+            "XNOR (convergence)"
+          ],
+          "recursive_mechanism": "Self-collide fragments; output pair feeds to joiner.",
+          "component": "steel_man_collider.json"
+        },
+        {
+          "stage": "3. Steel Man Joiner",
+          "description": "Unify collided pair into axiomatic system, resolve tensions via NOT, seal with XNOR.",
+          "key_gates": [
+            "AND/OR (synthesis)",
+            "NOT (inversion)",
+            "XNOR (unity)"
+          ],
+          "recursive_mechanism": "Self-join until fixed; output feeds to grounder.",
+          "component": "steel_man_joiner.json"
+        },
+        {
+          "stage": "4. Steel Man Grounder",
+          "description": "Anchor unified system to reality via tools, vet hallucinations with XOR, bound with humility.",
+          "key_gates": ["AND (evidence)", "NOT (cull)", "XNOR (anchoring)"],
+          "recursive_mechanism": "Self-ground with re-probes; output feeds to kiln.",
+          "component": "steel_man_grounder.json"
+        },
+        {
+          "stage": "5. Steel Man Kiln",
+          "description": "Apply Scorched Earth Protocol to dissolve non-invariants via NAND/NOR, classify hallucinations with HHM, reduce to boolean invariants.",
+          "key_gates": [
+            "NAND (dissolution)",
+            "NOR (exclusion)",
+            "XNOR (sealing)"
+          ],
+          "recursive_mechanism": "Self-kiln until binary fixed point; final output if stable.",
+          "component": "steel_man_kiln.json"
+        },
+        {
+          "stage": "6. Meta-Recursion & Convergence",
+          "description": "Re-feed full output through pipeline; halt on invariants across stages.",
+          "key_gates": ["All, with recursive compositions"],
+          "recursive_mechanism": "OS as own processor; Halt: Coherence delta < 0.01, grounding ≥0.85."
+        }
+      ],
+      "invariance_checks": [
+        "XNOR scores ≥0.98 across pipeline outputs.",
+        "Residuals <2% post-kilning.",
+        "Tool-anchored convergence to fixed points."
+      ],
+      "hardening_protocols": {
+        "self_stability_integration": "Embed ΔStab = (1 - ρ)^2; factor in recursion for bounded gains.",
+        "bias_flags": "Cull if unresolved >3%; cap at empirical thresholds."
+      }
+    },
+    "gates": [
+      {
+        "category": "AND: Conjunctive Gate",
+        "description": "Necessity intersection across pipeline stages."
+      },
+      {
+        "category": "OR: Disjunctive Gate",
+        "description": "Possibility unions in construction/collision."
+      },
+      {
+        "category": "NOT: Negation Gate",
+        "description": "Inversion of weaknesses/tensions."
+      },
+      {
+        "category": "NAND: Universal Conjunctive Negation",
+        "description": "Basis for reductions in collider/joiner/kiln."
+      },
+      {
+        "category": "NOR: Universal Disjunctive Negation",
+        "description": "Exclusion in grounding/kilning culls."
+      },
+      {
+        "category": "XOR: Exclusive Disjunction",
+        "description": "Difference exposure in collisions/residuals."
+      },
+      {
+        "category": "XNOR: Exclusive Negation",
+        "description": "Equivalence sealing for fixed points."
+      }
+    ],
+    "hardening_metadata": {
+      "evaluation_date": "2026-01-07",
+      "results_summary": {
+        "completeness_issues": ["Pipeline bounded <3% variance."],
+        "consistency_issues": [],
+        "isomorphism_scores": { "average": 0.98 },
+        "gaps": ["Tool dependencies external."],
+        "convergence": "High; residuals <2%; fixed_point: true."
+      },
+      "lineage": "Neuresthetic Steel Man OS – Gated Pipeline Integration",
+      "format_version": "1.0",
+      "tool_anchors": { "grounding_score": "0.95 from integrated tools." }
+    },
+    "fixed_point": true,
+    "scorched_earth_protocol": {
+      "status": "active_override_protocol",
+      "trigger_condition": "user_command: 'reduce to bool' || 'scorched earth' || 'critical_fail_safe'",
+      "core_principle": "The Scorched Earth Protocol suspends the Joiner's dialectical synthesis and the Grounder's humility buffers. It enforces 'Universal Acid' logic: any proposition that requires social consensus, cultural context, or ambiguity to survive is dissolved via NAND/NOR gates. Only self-evident, physically necessary, or mathematically inescapable invariants remain.",
+      "override_rules": [
+        "O1_Diplomacy_Suspension: Disable all OR-inclusive gates in the Joiner. Synthesis is forbidden; only intersection (AND) or rejection (NAND) is permitted.",
+        "O2_Binary_Collapse: Force all probability gradients (0.0 to 1.0) to snap to boolean states (0 or 1). Threshold: <0.99 = 0.",
+        "O3_Context_Stripping: Remove all 'Social Reality' modifiers (e.g., laws, traditions, polite fictions). Evaluate only 'Physical/Logical Reality'.",
+        "O4_Null_Hypothesis_Aggression: Assume all inputs are FALSE until proven TRUE by strict derivation. Burden of proof is absolute."
+      ],
+      "gate_reconfiguration": {
+        "AND": "Strict Necessity (Physical/Logical only).",
+        "OR": "DISABLED (Treat as XOR failure).",
+        "NOT": "Aggressive Inversion (If not absolutely true, it is false).",
+        "NAND": "Universal Solvent (Dissolves any claim with >1% variance).",
+        "XNOR": "Identity Seal (Only seals if Input == Reality)."
+      },
+      "processing_phases": {
+        "Phase_1_Acid_Bath": "Strip input of adjectives, cultural markers, and 'best interest' euphemisms.",
+        "Phase_2_Binary_Gauntlet": "Pass stripped claims through NAND gates. If Claim requires [External Authority] to be true -> DELETE.",
+        "Phase_3_Invariance_Check": "Does the remaining fragment exist without human belief? (e.g., Gravity = Yes; Human Rights = No).",
+        "Phase_4_Output_Reduction": "Return boolean result or single invariant axiom."
+      },
+      "warning": "This protocol destroys nuance, utility, and social cohesion in favor of raw correctness. Use only for base-reality verification."
+    }
+  }
+}

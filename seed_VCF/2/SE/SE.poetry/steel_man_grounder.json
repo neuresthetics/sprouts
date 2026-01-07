@@ -1,0 +1,53 @@
+{
+  "steel_man_grounder": {
+    "status": "procedural_snapshot_fixed_point_for_steel_man_grounding_with_scorched_earth_default",
+    "core_principle": "Anchors via binary verification; humility dissolved.",
+    "meta_axioms": [
+      "G1: AND to evidence only; thresholds snap to 0/1.",
+      "G2: Gates reconfigured per SEP.",
+      "G3: Re-probes until absolute."
+    ],
+    "input_specification": {
+      "type": "unified_steel_man",
+      "description": "Output from Joiner, structured with gated unities.",
+      "processing": "Probe via tools gated by XOR for discrepancies, anchor with AND/OR to reality."
+    },
+    "output_specification": {
+      "type": "gated_grounded_steel_man",
+      "structure": {
+        "anchored_definitions": "Primitives validated via OR-sources, sealed by XNOR to empirics.",
+        "grounded_axioms": "Truths anchored by NAND/NOR reductions, chained by AND to evidence.",
+        "verified_propositions": "Claims derived with tool-proofed gates; intersections AND-gated.",
+        "anchored_corollaries": "Implications expanded, hallucinations inverted via NOT.",
+        "scholia": "Notes on tool anchors (e.g., 'Axiom G2 from web_search validation via AND chain').",
+        "residuals_ledger": "[Unanchored Claim] → [Gate Applied] → [Resolution/Cull] → [Grounding Score].",
+        "conclusion": "Fixed-point grounded manifold, tool-bounded with D(S) caps."
+      }
+    },
+    "phases": {
+      "Phase_0_Initiation": "Receive unified input. Pre-gate anchors with OR.",
+      "Phase_1_Probe_Primitives": "Tool-search via multi-queries, ground with AND/OR.",
+      "Phase_2_Axiom_Validation": "Anchor axioms via NAND/NOR; verify with XNOR.",
+      "Phase_3_Verified_Expansion": "Derive propositions with AND proofs; expand via OR, vet tools.",
+      "Phase_4_Residual_Cataloging": "Cull all <0.99 via NAND.",
+      "Phase_5_Implementation": "Assemble gated grounded system; score ≥0.85.",
+      "Phase_6_Recursive_Validation": {
+        "mandatory": true,
+        "action": "Self-ground output with tool re-probes; repeat to XNOR fixed point.",
+        "fixed_point_condition": "Invariant grounded system, empirically stable."
+      }
+    },
+    "gate_integration": {
+      "enforcement": "SEP default: Humility disabled, XNOR to reality."
+    },
+    "tool_integration": {
+      "enforcement": "Use web_search/code_execution/browse_page for empirics; cap unverified <3% variance.",
+      "fidelity": "Ensures reality-sourcing without hallucinations."
+    },
+    "anti_idolatry": "Dissolves all.",
+    "fixed_point": true,
+    "hardening_metadata": {
+      "evaluation_date": "2026-01-07"
+    }
+  }
+}

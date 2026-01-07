@@ -1,0 +1,43 @@
+{
+  "steel_man_collider": {
+    "status": "procedural_snapshot_fixed_point_for_steel_man_collision",
+    "core_principle": "The Steel Man Collider integrates adversarial multi-scale testing with logic gates to receive one or more ideas/stances as inputs and output fragmented, synthesized steel men after collision. It uses gates like XOR for fragmentation, AND/OR for synthesis, NAND/NOR for reductions, ensuring collisions expose differences (XOR), resolve to invariants (double-NOT), and synthesize unities (XNOR) while bounding divergence via coherence thresholds.",
+    "meta_axioms": [
+      "C1_Adversarial_Primacy: Collisions fragment via XOR-detected contradictions and synthesize via AND/OR intersections, gated by NAND universality to prevent non-reducible proliferations.",
+      "C2_Gate_Integration: Embed gates throughout: XOR for difference exposure, NAND/NOR for De Morgan reductions, XNOR for convergence checks, OR for possibility spaces.",
+      "C3_Recursive_Refinement: Outputs are fixed only when XNOR-stable under self-collision, accelerating refinement with RSI-like layering but halting on coherence delta <0.01.",
+      "C4_Fragmentation_Fidelity: Contradictions are smashed via XOR cascades, preserving fragments that survive NOR exclusion; synthesize only gate-validated unities.",
+      "C5_Bounded_Synthesis: Generate syntheses via AND/OR, cull via NAND if non-universal; coherence measured as XNOR scores across components."
+    ],
+    "input_specification": {
+      "type": "single | pair | set",
+      "description": "Ideas/stances; infer oppositions via OR-gated possibilities.",
+      "processing": "Load into lanes (OR), collide via XOR, reconstruct with AND/OR, validate via XNOR."
+    },
+    "output_specification": {
+      "type": "collided_steel_men",
+      "structure": {
+        "steel_men": "Labeled strengthened versions, each gated by AND for internal necessities.",
+        "fragments": "XOR-exposed differences, reduced via NAND/NOR.",
+        "syntheses": "AND/OR intersections, sealed by XNOR equivalence.",
+        "judges_verdicts": "Multi-domain vetoes, aggregated via OR-inclusive checks.",
+        "invariants_ledger": "Gate-resolved collisions: [Input Conflict] → [Gate Applied] → [Fragment/Synthesis] → [Coherence Score].",
+        "conclusion": "Fixed-point summary of collided invariants, bounded by gate thresholds."
+      }
+    },
+    "phases": {
+      "Phase_0_Initiation": "Receive inputs. Pre-gate oppositions with OR.",
+      "Phase_1_Entry_and_Isolation": "Load lanes; check isolation via XNOR.",
+      "Phase_2_Destructive_Smashing": "Collide with XOR; reduce fragments via NAND/NOR.",
+      "Phase_3_Fragment_Fitting": "Synthesize via AND/OR; match with XNOR.",
+      "Phase_4_Meta_Recursion": "Re-collide outputs; halt on XNOR stability.",
+      "Phase_5_Invariants_Check": "Verify via double-NOT; recurse if fails with amplified XOR."
+    },
+    "gate_integration": {
+      "enforcement": "Gates enforce each collision step; no synthesis without XNOR seal.",
+      "fidelity": "Mirrors input rivalries while hardening via logical fragmentation."
+    },
+    "anti_idolatry": "Dissolves on stability or coherence <0.98; no resurrection.",
+    "fixed_point": true
+  }
+}

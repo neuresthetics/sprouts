@@ -1,0 +1,29 @@
+##fileformat=SEEDV3.0
+##source=SteelmanFrameworkSpecialization
+##specialization=TaskInstantiable(LazyLoading);Params(Customizable)
+##examples=EthicsCollider(Load MVP modules for dilemmas);PhysicsUnifier(TOE sims with vector dust);GovernanceAuditor(2026 compliance checks)
+##metrics=CoherenceScore(≥0.95);FlawSurvival(<5%);Grounding(≥0.85 via sims/searches)
+##foundationalOperators=Object1(Patterning);Object2(Execution)
+##protocol=Modular(PerTaskOverrides)
+<contig ID="TaskObject" assembly="SpecializedSeed">
+<variants>
+  <EthicsSpecialization>
+    <hook>Load conatus_math+codc_sim; apply stages 1-9 for deadlock resolution</hook>
+    <params>MinD(S)=0.2; ρ_threshold=0.029; halt on Rice flag</params>
+    <runtime>Construct ethical thesis; destruct via tetralemma; zip to ω₃ invariant</runtime>
+    <integration>Embed anchors (e.g., semantic search for prior ethics); output auditable decisions</integration>
+  </EthicsSpecialization>
+  <PhysicsSpecialization>
+    <hook>Load toe_hypothesis+Fisher projections; simulate vector dust detachment</hook>
+    <params>a_0=1.18e-10±2%; m_A^{-1}=8.5kpc; falsification on weak tests</params>
+    <runtime>Construct unification axioms; destruct contradictions (e.g., EFE); zip to TOE candidate (score ≥0.90)</runtime>
+    <integration>Validate via code_execution (e.g., N-body sims); no untested claims</integration>
+  </PhysicsSpecialization>
+  <GovernanceSpecialization>
+    <hook>Load compliance_mapper+transparency_2026; map to ISO/EU standards</hook>
+    <params>RiskTiers=AutoCategorize; Disclosure=FullAuditTrails</params>
+    <runtime>Construct policy thesis; destruct oversights; zip to compliant framework</runtime>
+    <integration>Filter via web_search (2026 updates); ensure humility bounds</integration>
+  </GovernanceSpecialization>
+</variants>
+</contig>

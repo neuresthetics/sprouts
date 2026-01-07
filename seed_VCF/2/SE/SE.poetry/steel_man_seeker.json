@@ -1,0 +1,157 @@
+{
+  "steel_man_seeker": {
+    "status": "procedural_snapshot_fixed_point_for_analogical_truth_extraction",
+    "core_principle": "The Steel Man Seeker processes poetic, metaphorical, and ideological content through analogical truth extraction rather than literal verification. It identifies underlying functional patterns, structural correspondences, and pragmatic truths embedded within non-literal expressions, using a specialized gate system for analogy processing. The module treats all human symbolic expressions as potential carriers of functional information, extracting what 'works' or 'maps' to reality without requiring literal truth.",
+    "meta_axioms": [
+      "AS1_Analogical_Primacy: All human symbolic expressions (poetry, ideology, metaphor) encode functional information through analogical mapping. Truth resides in the mapping quality, not literal correspondence.",
+      "AS2_Gate_Integration_for_Analogy: Specialized gates process analogies: MAPS (correspondence), TRANSFORMS (structural similarity), SCORES (mapping quality), EXTRACTS (functional truth), CONTEXTS (domain relevance).",
+      "AS3_Recursive_Analogical_Refinement: Process until analogy scores stabilize (SCORES-invariant), maximizing functional truth extraction while minimizing literal misattribution.",
+      "AS4_Functional_Truth_Extraction: Extract what 'works' in the analogy: predictive power, explanatory value, heuristic utility, emotional resonance, behavioral guidance.",
+      "AS5_No_Literal_Truth_Requirement: An analogy can be 'true' in its functional mapping while being 'false' in literal terms. The module preserves this distinction.",
+      "AS6_Universal_Pattern_Recognition: All human symbolic systems share underlying cognitive patterns; the module extracts these patterns across cultural boundaries."
+    ],
+    "input_specification": {
+      "type": "poetic_text | ideological_statement | metaphorical_narrative | symbolic_expression",
+      "description": "Any non-literal human expression using analogy, metaphor, symbolism, or poetic language to convey meaning.",
+      "processing": "Deconstruct into analogical components, process through analogy gates, extract functional truths, reconstruct as analogical steel man."
+    },
+    "output_specification": {
+      "type": "analogical_steel_man",
+      "structure": {
+        "source_expression": "The original poetic/ideological input.",
+        "core_analogical_pattern": "The primary analogy structure identified (A:B :: X:Y).",
+        "analogical_components": [
+          {
+            "source_element": "Element from input (e.g., 'divine covenant')",
+            "target_domain": "Mapped domain (e.g., 'evolutionary algorithm')",
+            "mapping_strength": "0.0-1.0 (XNOR-style correspondence score)",
+            "functional_truth": "What 'works' in the analogy (e.g., 'creates group cohesion')",
+            "literal_truth_status": "false | mixed | context-dependent"
+          }
+        ],
+        "extracted_patterns": [
+          {
+            "pattern_type": "cognitive | social | biological | psychological",
+            "pattern_description": "The underlying human pattern the analogy taps into",
+            "cross_cultural_instances": "Other cultural expressions of same pattern",
+            "evolutionary_utility": "Why this pattern persists in human cognition"
+          }
+        ],
+        "functional_truths": [
+          "List of what the analogy correctly predicts, explains, or enables",
+          "Each with: domain, utility_score, evidence_correlation"
+        ],
+        "analogy_scores": {
+          "structural_similarity": "0.0-1.0 (MAPS gate output)",
+          "predictive_power": "0.0-1.0 (how well it predicts outcomes)",
+          "explanatory_value": "0.0-1.0 (how well it explains phenomena)",
+          "heuristic_utility": "0.0-1.0 (practical usefulness as mental tool)",
+          "emotional_resonance": "0.0-1.0 (affective power)",
+          "cultural_persistence": "0.0-1.0 (how long/wide it spreads)"
+        },
+        "literal_warnings": [
+          "Potential category errors if analogy taken literally",
+          "Domain boundary violations",
+          "Overextension risks"
+        ],
+        "practical_applications": [
+          "How the extracted functional truth could be applied",
+          "Without requiring belief in literal truth"
+        ]
+      }
+    },
+    "phases": {
+      "Phase_0_Initiation": "Receive poetic/ideological input. Suspend literal truth evaluation. Activate analogical processing mode.",
+      "Phase_1_Pattern_Deconstruction": "Break input into analogical units. Identify source and target domains. Use MAPS gate to find correspondences.",
+      "Phase_2_Analogical_Mapping": "For each analogy: map source→target elements. Score mappings with SCORES gate. Use TRANSFORMS gate to test structural similarity.",
+      "Phase_3_Functional_Extraction": "Extract functional truths via EXTRACTS gate: what does the analogy help us do/predict/understand?",
+      "Phase_4_Pattern_Recognition": "Identify underlying human cognitive/social patterns. Use CONTEXTS gate to place in broader human context.",
+      "Phase_5_Reconstruction": "Build analogical steel man: preserve functional truths, discard literal misattributions, clarify domain boundaries.",
+      "Phase_6_Recursive_Analogical_Refinement": {
+        "mandatory": true,
+        "action": "Re-process the analogical steel man; refine mappings, improve scores.",
+        "fixed_point_condition": "Analogy scores stabilize (delta <0.01) and functional truths maximized."
+      }
+    },
+    "gate_integration": {
+      "specialized_analogy_gates": [
+        {
+          "gate": "MAPS",
+          "function": "Finds correspondences between source and target domains",
+          "operation": "A:B :: X:Y pattern matching"
+        },
+        {
+          "gate": "TRANSFORMS",
+          "function": "Tests structural similarity under transformation",
+          "operation": "If A→B, does X→Y preserve relationships?"
+        },
+        {
+          "gate": "SCORES",
+          "function": "Quantifies analogy quality (0.0-1.0)",
+          "dimensions": ["structural", "functional", "predictive", "explanatory"]
+        },
+        {
+          "gate": "EXTRACTS",
+          "function": "Extracts functional truth from analogy",
+          "operation": "What works regardless of literal truth"
+        },
+        {
+          "gate": "CONTEXTS",
+          "function": "Places analogy in broader human context",
+          "operation": "Cross-cultural patterns, cognitive universals"
+        }
+      ],
+      "standard_gates_repurposed": [
+        {
+          "gate": "XNOR",
+          "analogical_use": "Seals valid correspondences between domains"
+        },
+        {
+          "gate": "XOR",
+          "analogical_use": "Exposes where analogy breaks down"
+        },
+        {
+          "gate": "AND",
+          "analogical_use": "Finds intersections of multiple analogical mappings"
+        },
+        {
+          "gate": "OR",
+          "analogical_use": "Explores alternative analogical interpretations"
+        }
+      ]
+    },
+    "hallucination_integration": {
+      "approach": "Treats all symbolic expressions as 'hallucinations' in literal sense, but classifies by functional utility:",
+      "classification_system": [
+        {
+          "type": "Functional_Hallucination",
+          "description": "Useful analogy that improves prediction/explanation",
+          "treatment": "Extract functional truth, preserve analogy"
+        },
+        {
+          "type": "Coercive_Hallucination",
+          "description": "Analogy used to justify harm or override autonomy",
+          "treatment": "Extract pattern, flag coercive application"
+        },
+        {
+          "type": "Degenerate_Hallucination",
+          "description": "Analogy with poor mapping, low utility",
+          "treatment": "Discard or flag as misleading"
+        }
+      ]
+    },
+    "anti_idolatry": "Prevents analogies from becoming literal dogma. Enforces domain boundaries. Dissolves if analogy taken literally without functional justification.",
+    "fixed_point": true,
+    "example_processing": {
+      "input_example": "\"Life is a journey with mountains and valleys\"",
+      "processing_steps": [
+        "1. Identify analogy: life:journey :: experiences:terrain",
+        "2. MAPS: mountains↔challenges, valleys↔low points",
+        "3. EXTRACTS: Functional truth: life has ups/downs, requires navigation",
+        "4. SCORES: structural=0.85, predictive=0.70, explanatory=0.80",
+        "5. Literal warning: Life isn't literally spatial terrain",
+        "6. Output: Analogical steel man with extracted functional truth about life's variability"
+      ]
+    }
+  }
+}

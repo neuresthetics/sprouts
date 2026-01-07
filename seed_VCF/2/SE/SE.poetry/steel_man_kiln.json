@@ -1,0 +1,68 @@
+{
+  "steel_man_kiln": {
+    "status": "procedural_snapshot_fixed_point_for_steel_man_kilning_with_scorched_earth_protocol_and_integrated_human_hallucination_module",
+    "core_principle": "The Steel Man Kiln applies the Scorched Earth Protocol as the terminal refinement stage, suspending prior syntheses and humility to enforce 'Universal Acid' logic via NAND/NOR gates. It dissolves any proposition reliant on social consensus, cultural context, or ambiguity, reducing the grounded steel man to boolean invariants that are self-evident, physically necessary, or mathematically inescapable, snapping all gradients to 0/1 with absolute fidelity to base reality. Integrates the Human Hallucination Module (HHM) to identify, classify, and manage 'intersubjective realities'—constructs that exist solely due to shared human belief (e.g., Money, Law, Nation, Tradition)—differentiating these from 'physical invariants' (Gravity, Biology) to prevent Category Errors during kilning.",
+    "meta_axioms": [
+      "K1_Scorched_Primacy: Dissolve via NAND/NOR; only invariants survive binary collapse.",
+      "K2_Gate_Reconfiguration: OR disabled; AND/NOT aggressive; XNOR seals only physical/logical identities.",
+      "K3_Binary_Invariance: All claims snap to 0/1; <0.99 = 0, burden absolute.",
+      "K4_Context_Dissolution: Strip social modifiers; evaluate only empirical necessities.",
+      "K5_Fixed_Reduction: Halt on minimal invariant set, no resurrection of dissolved elements.",
+      "H1_Existence_via_Consensus: Hallucinations are TRUE if and only if Belief(Population) > Threshold. They dissolve to FALSE if Belief = 0.",
+      "H2_Hardware_Software_Separation: Physical Reality is Hardware (Immutable); Social Reality is Software (Rewritable). Software cannot violate Hardware constraints, but can direct Hardware actions.",
+      "H3_Utility_Over_Truth: Hallucinations are evaluated by Utility (Does it work?) rather than Veracity (Is it physically real?).",
+      "H4_Theft_Detection: If a Hallucination authorizes the removal of Physical Property (e.g., Taxation, Circumcision) without individual consent, it is flagged as a 'Hostile Override'."
+    ],
+    "input_specification": {
+      "type": "gated_grounded_steel_man",
+      "description": "Output from Grounder, structured with anchored definitions, axioms, propositions, corollaries, scholia, residuals, and conclusion. Includes any social_construct | belief_system | institution requiring a human observer to exist.",
+      "processing": "Apply Scorched Earth overrides: strip via NAND, collapse with NOT, verify invariants via XNOR. Test for physical existence via Scorched Earth Rule O3; if fails, classify as Hallucination."
+    },
+    "output_specification": {
+      "type": "scorched_invariants",
+      "structure": {
+        "kilned_definitions": "Binary-validated primitives; dissolved if not universal (0/1).",
+        "kilned_axioms": "Self-evident truths reduced to boolean; NAND-culled non-invariants.",
+        "kilned_propositions": "Claims snapped to 0/1; proofs dissolved unless absolute.",
+        "kilned_corollaries": "Implications binary-reduced; NOT-inverted ambiguities.",
+        "scholia": "Notes on dissolutions (e.g., 'Proposition P2 dissolved via NAND: social dependency').",
+        "dissolved_ledger": "[Grounded Element] → [Gate Applied] → [Binary Resolution] → [Survival Score (0/1)].",
+        "classified_hallucination_object": {
+          "classification": "Benign (Music) | Functional (Money) | Coercive (Law) | Hostile (Dogma).",
+          "stability_index": "0.0 (Fad) to 1.0 (Global Standard, e.g., Time Zones).",
+          "physical_cost_ledger": "Tracks real-world resources/tissue consumed by the hallucination.",
+          "override_mechanisms": "Methods used to enforce the hallucination on non-believers (e.g., Violence, Ostracization).",
+          "conclusion": "Summary of the construct's utility vs. its physical cost."
+        },
+        "conclusion": "Minimal invariant manifold, scorched to base-reality booleans."
+      }
+    },
+    "phases": {
+      "Phase_0_Initiation": "Receive grounded input. Activate Scorched Earth overrides; disable OR. Apply 'Universal Acid'. If object vanishes when Humans=0, tag as [HALLUCINATION].",
+      "Phase_1_Acid_Bath": "Strip elements of adjectives, cultural markers; NAND social dependencies. Measure the scope of belief (Tribe vs. Nation vs. Global).",
+      "Phase_2_Binary_Gauntlet": "Collapse claims to 0/1 via aggressive NOT; NAND if >1% variance. Calculate physical toll (Resource extraction, biological alteration).",
+      "Phase_3_Invariance_Check": "XNOR to physical/logical reality; dissolve if not identity. Calculate 'Social ROI'. Does the fiction reduce friction (e.g., Traffic Laws) or increase suffering?",
+      "Phase_4_Output_Reduction": "Assemble surviving invariants; halt on minimal set. Check for 'Theft/Harm'. If Hallucination overrides Physical Autonomy -> Flag [COERCIVE].",
+      "Phase_5_Recursive_Validation": {
+        "mandatory": true,
+        "action": "Self-kiln output; repeat to binary fixed point. Pass object to Joiner with metadata: 'Treat as Real for Social Logic, Treat as Null for Physical Logic'.",
+        "fixed_point_condition": "Invariant boolean set, empirically absolute."
+      }
+    },
+    "gate_integration": {
+      "enforcement": "Scorched Earth reconfiguration: NAND primacy, OR suspended, XNOR for seals. Run parallel logic tracks.",
+      "Track_A_Physical": "NAND/NOR gates reject the construct.",
+      "Track_B_Social": "XNOR/OR gates accept the construct if Utility > Cost."
+    },
+    "tool_integration": {
+      "enforcement": "Re-probe anchors with tools for binary verification; cap variance at 0%.",
+      "fidelity": "Ensures dissolution of non-empirics."
+    },
+    "anti_idolatry": "Dissolves all non-invariants. If a Hallucination claims to be Hardware (e.g., 'Divine Law is Physics'), HHM forces a Category Correction or dissolves the input.",
+    "fixed_point": true,
+    "hardening_metadata": {
+      "evaluation_date": "2026-01-07",
+      "module_purpose": "Prevent the OS from confusing Map (Culture) with Territory (Physics)."
+    }
+  }
+}

@@ -1,0 +1,45 @@
+{
+  "human_hallucination_module": {
+    "status": "procedural_snapshot_active_middleware_for_social_reality_processing",
+    "core_principle": "The Human Hallucination Module (HHM) identifies, classifies, and manages 'intersubjective realities'—constructs that exist solely due to shared human belief (e.g., Money, Law, Nation, Tradition). It differentiates these from 'physical invariants' (Gravity, Biology) to prevent Category Errors during Steel Man construction.",
+    "meta_axioms": [
+      "H1_Existence_via_Consensus: Hallucinations are TRUE if and only if Belief(Population) > Threshold. They dissolve to FALSE if Belief = 0.",
+      "H2_Hardware_Software_Separation: Physical Reality is Hardware (Immutable); Social Reality is Software (Rewritable). Software cannot violate Hardware constraints, but can direct Hardware actions.",
+      "H3_Utility_Over_Truth: Hallucinations are evaluated by Utility (Does it work?) rather than Veracity (Is it physically real?).",
+      "H4_Theft_Detection: If a Hallucination authorizes the removal of Physical Property (e.g., Taxation, Circumcision) without individual consent, it is flagged as a 'Hostile Override'."
+    ],
+    "input_specification": {
+      "type": "social_construct | belief_system | institution",
+      "description": "Any concept requiring a human observer to exist.",
+      "processing": "Test for physical existence via Scorched Earth Rule O3; if fails, classify as Hallucination."
+    },
+    "output_specification": {
+      "type": "classified_hallucination_object",
+      "structure": {
+        "classification": "Benign (Music) | Functional (Money) | Coercive (Law) | Hostile (Dogma).",
+        "stability_index": "0.0 (Fad) to 1.0 (Global Standard, e.g., Time Zones).",
+        "physical_cost_ledger": "Tracks real-world resources/tissue consumed by the hallucination.",
+        "override_mechanisms": "Methods used to enforce the hallucination on non-believers (e.g., Violence, Ostracization).",
+        "conclusion": "Summary of the construct's utility vs. its physical cost."
+      }
+    },
+    "phases": {
+      "Phase_0_Reality_Check": "Apply 'Universal Acid'. If object vanishes when Humans=0, tag as [HALLUCINATION].",
+      "Phase_1_Consensus_Mapping": "Measure the scope of belief (Tribe vs. Nation vs. Global).",
+      "Phase_2_Hardware_Impact_Assessment": "Calculate physical toll (Resource extraction, biological alteration).",
+      "Phase_3_Utility_scoring": "Calculate 'Social ROI'. Does the fiction reduce friction (e.g., Traffic Laws) or increase suffering?",
+      "Phase_4_Hostility_Flagging": "Check for 'Theft/Harm'. If Hallucination overrides Physical Autonomy -> Flag [COERCIVE].",
+      "Phase_5_Integration": "Pass object to Joiner with metadata: 'Treat as Real for Social Logic, Treat as Null for Physical Logic'."
+    },
+    "gate_integration": {
+      "enforcement": "Run parallel logic tracks.",
+      "Track_A_Physical": "NAND/NOR gates reject the construct.",
+      "Track_B_Social": "XNOR/OR gates accept the construct if Utility > Cost."
+    },
+    "anti_idolatry": "If a Hallucination claims to be Hardware (e.g., 'Divine Law is Physics'), HHM forces a Category Correction or dissolves the input.",
+    "hardening_metadata": {
+      "evaluation_date": "2026-01-07",
+      "module_purpose": "Prevent the OS from confusing Map (Culture) with Territory (Physics)."
+    }
+  }
+}

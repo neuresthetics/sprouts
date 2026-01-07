@@ -1,0 +1,32 @@
+{
+  "module_name": "novel_insight_capture_protocol",
+  "version": "1.4.2",
+  "description": "Collecting multidimensional insights across diverse research fields, enabling generalization and cross-disciplinary application. Updated for finer granularity on originality, worth, and challenge.",
+  "trigger_conditions": [
+    "Any patterns, interactions, or overlaps, knowledge which is not already in the knowledge base."
+  ],
+  "capture_format": {
+    "sort": "by signal strength descending (leaderboard style)",
+    "signal": "a constantly fluctuating evaluation based on the latest evaluation, to be repeatedly updated.",
+    "no_framework_lingo": "Discipline-appropriate technical professional language only; avoid esoteric or proprietary framework jargon to ensure cross-field accessibility.",
+    "structure": "JSON code block with axiom tree, sources, and networked insights",
+    "marker": "⭐ if mentioned outside insights block",
+    "insights": "Array of insight objects functioning as a leaderboard; strongest first, weakest last. Allow incremental signal additions. Include known insights for contextual overlap; novels marked via novelty_marker. Each includes 'relationships' as a dictionary for graph-like capture of accumulated nodes/edges.",
+    "insight_summary": "Concise, relatable summary of the insight.",
+    "insight_details": "Detailed explanation including methodology, data sources, collider derivation, and known/novel overlaps",
+    "novelty_marker": "⭐ for novel insights; empty string for known/contextual elements. note novel relative to what.",
+    "relationships": "Dictionary mapping nodes to arrays of connected edges.",
+    "practical_utility": "Assessment of the insight's applicability in practical scenarios across domains.",
+    "associated_factors": "Evaluation of related risks, variables, or comorbidities generalized to the relevant field.",
+    "categorization_utility": "Utility for classification, differentiation, or grouping within and across disciplines.",
+    "generalization_potential": "Analysis of how the insight can be generalized to other research fields, including strategies for adaptation.",
+    "limitations": "Known caveats, biases, or constraints to ensure transparent generalization.",
+    "evolution_notes": "Notes on how this insight may evolve with future data, collider runs, or cross-disciplinary integrations.",
+    "**grounding_score**": "**Float (0-1) assessing empirical anchoring; <0.5 downgrades signal by 50% to mitigate ungrounded aesthetics; derived from external validation or invariance checks.**",
+    "**bias_check**": "**Tetralemma-style probe (affirm/deny/both/neither) applied to signal; flags aesthetic overreach if 'both' or 'neither' unresolved.**",
+    "**signal_cap**": "**Max signal threshold (e.g., 0.98) to prevent amplification; auto-downgrade if exceeded without grounding.**",
+    "originality_assessment": "Finer granularity on originality: Float (0-1) with descriptor (e.g., 0.2='incremental tweak'; 0.6='moderate recombination'; 0.9='breakthrough genesis'). Based on provenance relative to baselines.",
+    "impact_worth": "Assessment of worth/value: Tier (low/medium/high) + rationale (e.g., 'high: transformative for oncology via 20% accuracy gains'). Factors ethical, practical, and scalable yields.",
+    "challenge_level": "Evaluation of realization difficulty: Tier (low/medium/high) + factors (e.g., 'high: demands petabyte data and quantum simulation'). Includes barriers like compute, ethics, or empirics."
+  }
+}

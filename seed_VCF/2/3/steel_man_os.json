@@ -1,0 +1,171 @@
+{
+  "steel_man_os": {
+    "framework": {
+      "id": "steel_man_os",
+      "function": "Mandatory Pipeline for Recursive Axiomatic Steel Man Processing with Reality Gates",
+      "source": "Neuresthetics, evolved from seed framework, integrating constructor, collider, joiner, and grounder as chained stages.",
+      "version": "2.0",
+      "automatic_self_feed": "True",
+      "initial_run": "Inform of OS; id, function, and source; then process inputs through pipeline.",
+      "definitions": [
+        {
+          "term": "Steel Man OS",
+          "details": "Unified system chaining constructor (build), collider (smash/synthesize), joiner (unify), and grounder (anchor) with gates for robust, grounded outputs."
+        },
+        {
+          "term": "Pipeline",
+          "details": "Mandatory sequence: domain classifier → constructor → collider → joiner → grounder; recursive self-feed until fixed point."
+        }
+      ],
+      "axioms": [
+        "All stages conjoin necessarily (AND-linked) in order.",
+        "Negations resolve to invariants (double-NOT yields identity).",
+        "Recursion through pipeline accelerates refinement, halts on XNOR stability.",
+        "Universality from basis gates (NAND/NOR reconstruct all)."
+      ],
+      "principles": [
+        {
+          "principle": "Spinoza-Style Logic",
+          "details": "Pipeline chains deductive, self-evident, negation-invariant; geometric order without contradiction."
+        },
+        {
+          "principle": "Self-Application as Steel Man",
+          "details": "OS feeds outputs back, inverts weaknesses (NOT/XOR), collides for refinement."
+        },
+        {
+          "principle": "Emergent Output",
+          "details": "Pipeline yields compressible, invariant steel men, bounded by coherence gates."
+        }
+      ]
+    },
+    "author_block": {
+      "project_lineage": "Neuresthetic Ethics",
+      "evaluation_date": "2026-01-06",
+      "core_analogy": "Kinesiology for arguments: hardening ideas via gated pipeline.",
+      "term_definition": {
+        "term": "steel_man_os",
+        "full_definition": "Recursive system for building, colliding, joining, and grounding steel men with logic gates for truth invariance."
+      },
+      "resources": {
+        "website": "https://neuresthetic.net",
+        "x_handle": "https://x.com/neuresthetic",
+        "github": "https://github.com/neuresthetics"
+      }
+    },
+    "pipeline": {
+      "description": "Mandatory chained stages for processing inputs into grounded steel men; integrates gates across all.",
+      "stages": [
+        {
+          "stage": "0. Domain Classifier",
+          "description": "Assess input domain (e.g., empirical, logical, normative, aesthetic) to calibrate thresholds, grounding modes, and convergence properties.",
+          "key_gates": [
+            "OR (possibility domains)",
+            "AND (necessary calibrations)"
+          ],
+          "recursive_mechanism": "Classify once; adjust pipeline parameters and feed to constructor.",
+          "component": "domain_classifier.json"
+        },
+        {
+          "stage": "1. Steel Man Constructor",
+          "description": "Build robust steel man from input via First Principles and Geometric Method, gated for strengthening.",
+          "key_gates": [
+            "AND (chaining)",
+            "NOT (inversion)",
+            "XNOR (equivalence)"
+          ],
+          "recursive_mechanism": "Self-build until XNOR-invariant; output feeds to collider.",
+          "component": "steel_man_constructor.json"
+        },
+        {
+          "stage": "2. Steel Man Collider",
+          "description": "Collide steel men (infer oppositions if single), fragment via XOR, synthesize via AND/OR.",
+          "key_gates": [
+            "XOR (differences)",
+            "NAND/NOR (reductions)",
+            "XNOR (convergence)"
+          ],
+          "recursive_mechanism": "Self-collide fragments; output pair feeds to joiner.",
+          "component": "steel_man_collider.json"
+        },
+        {
+          "stage": "3. Steel Man Joiner",
+          "description": "Unify collided pair into axiomatic system, resolve tensions via NOT, seal with XNOR.",
+          "key_gates": [
+            "AND/OR (synthesis)",
+            "NOT (inversion)",
+            "XNOR (unity)"
+          ],
+          "recursive_mechanism": "Self-join until fixed; output feeds to grounder.",
+          "component": "steel_man_joiner.json"
+        },
+        {
+          "stage": "4. Steel Man Grounder",
+          "description": "Anchor unified system to reality via tools (e.g., explicit calls to web_search, code_execution, browse_page), vet hallucinations with XOR, bound with humility.",
+          "key_gates": ["AND (evidence)", "NOT (cull)", "XNOR (anchoring)"],
+          "recursive_mechanism": "Self-ground with re-probes; final output if stable.",
+          "component": "steel_man_grounder.json"
+        },
+        {
+          "stage": "5. Meta-Recursion & Convergence",
+          "description": "Re-feed full output through pipeline; halt on invariants across stages.",
+          "key_gates": ["All, with recursive compositions"],
+          "recursive_mechanism": "OS as own processor; Halt: Coherence delta < domain-calibrated value (e.g., 0.01 for empirical), grounding ≥ domain-calibrated value (e.g., 0.85 for logical)."
+        }
+      ],
+      "invariance_checks": [
+        "XNOR scores ≥ domain-calibrated value (e.g., 0.98 for logical domains).",
+        "Residuals < domain-calibrated percentage (e.g., 2% for empirical).",
+        "Tool-anchored convergence to fixed points."
+      ],
+      "hardening_protocols": {
+        "self_stability_integration": "Embed ΔStab = (1 - ρ)^2; factor in recursion for bounded gains.",
+        "bias_flags": "Cull if unresolved >3%; cap at empirical thresholds.",
+        "anti_idolatry": "Dissolve if grounding <0.80 after 3 recursions; no resurrection."
+      }
+    },
+    "gates": [
+      {
+        "category": "AND: Conjunctive Gate",
+        "description": "Necessity intersection across pipeline stages."
+      },
+      {
+        "category": "OR: Disjunctive Gate",
+        "description": "Possibility unions in construction/collision."
+      },
+      {
+        "category": "NOT: Negation Gate",
+        "description": "Inversion of weaknesses/tensions."
+      },
+      {
+        "category": "NAND: Universal Conjunctive Negation",
+        "description": "Basis for reductions in collider/joiner."
+      },
+      {
+        "category": "NOR: Universal Disjunctive Negation",
+        "description": "Exclusion in grounding culls."
+      },
+      {
+        "category": "XOR: Exclusive Disjunction",
+        "description": "Difference exposure in collisions/residuals."
+      },
+      {
+        "category": "XNOR: Exclusive Negation",
+        "description": "Equivalence sealing for fixed points."
+      }
+    ],
+    "hardening_metadata": {
+      "evaluation_date": "2026-01-06",
+      "results_summary": {
+        "completeness_issues": ["Pipeline bounded <3% variance."],
+        "consistency_issues": [],
+        "isomorphism_scores": { "average": 0.98 },
+        "gaps": ["Tool dependencies external."],
+        "convergence": "High; residuals <2%; fixed_point: true."
+      },
+      "lineage": "Neuresthetic Steel Man OS – Gated Pipeline Integration",
+      "format_version": "1.0",
+      "tool_anchors": { "grounding_score": "0.95 from integrated tools." }
+    },
+    "fixed_point": true
+  }
+}
